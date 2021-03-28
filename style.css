@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+    /* background: black; */
+}
+
+ .wrapper{
+    height: 100vh;
+    display: grid;
+    justify-items:center;
+    align-items: center;
+    background: #1C2A37;
+    background-image: url('./yoda-background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.yodaBox {
+    height: auto;
+    /* width: 340px; */
+    background: #F0F0F2;
+    border: 3px solid #4CB7EB;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: auto;
+    justify-items: center;
+    align-items: center;
+
+}
+
+.result {
+    font-size: 16px;
+    font-weight: 300;
+    text-align: center;
+}
+
+.getYoda{
+    background: #99BF7E; 
+    color:black;
+    border: none;
+    border-radius: 5px;
+    margin: 20px;
+    padding: 5px;
+}
