@@ -2,6 +2,8 @@ const form = document.querySelector('form.search');
 const result = document.querySelector('.result')
 const yodaButton = document.querySelector('.getYoda')
 // const proxy = `https://thingproxy.freeboard.io/fetch/`
+// const proxy = `https://cors-anywhere.herokuapp.com/`;
+// const proxy = `http://gobetween.oklabs.org/`
 const baseEndpoint = `https://yoda-api.appspot.com/api/v1/yodish`
 
 result.innerHTML = 'Yoda translate to Yoda I am. Yes, hrrrm.'

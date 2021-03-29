@@ -9,8 +9,10 @@
     justify-items:center;
     align-items: center;
     background: #1C2A37;
-    background-image: url('./yoda-background.jpg');
-    background-repeat: no-repeat;
+    background: url('./yoda-background.jpg') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-size: cover;
 }
 
@@ -21,8 +23,10 @@
     border: 3px solid #4CB7EB;
     padding: 20px;
     display: grid;
-    grid-template-columns: auto;
+    /* grid-template-columns: auto; */
+    grid-template-columns: 1fr;
     justify-items: center;
+    /* justify-content: center; */
     align-items: center;
 
 }
@@ -41,3 +45,36 @@
     margin: 20px;
     padding: 5px;
 }
+
+.little-yoda {
+    display: none;
+}
+
+
+
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+    .wrapper {
+        height: 800px;
+        display: grid;
+        grid-template-columns: 1fr;
+       
+    }
+
+
+    .yodaBox {
+        height: 200px;
+        margin: 20px;
+        grid-template-columns: 1fr;
+    
+    }
+
+    img.little-yoda {
+        height: 100px;
+        display:block;
+        margin: 60px
+    }
+  
+    
+  }
